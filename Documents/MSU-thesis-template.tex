@@ -1,0 +1,312 @@
+% This is a template for use with the MSU Thesis class
+% Vesion 3.0 2021/06/10
+%
+% Class options: 
+%[PhD]	Doctor of Philosophy (default) 
+%[DEd]	Doctor of Education
+%[DMA]	Doctor of Musical Arts
+%[DNP]	Doctor of Nursing Practice
+%[MA]	Master of Arts
+%[MS]	Master of Science
+%[MAT]	Master of Arts for Teachers
+%[MBA]	Master of Business Administration
+%[MFA]	Master of Fine Arts
+%[MIPS]	Master of International Planning Studies
+%[MHRL]	Master of Human Resources and Labor Relations 
+%[MMus]	Master of Music
+%[MPH]	Master of Public Health
+%[MPP]	Master of Public Policy
+%[MSW]	Master of Social Work
+%[MURP]	Master in Urban and Regional Planning 
+%%
+% Default is PhD
+%
+%
+% This template has everything in the right order.
+% Just add real content and you're done!
+%
+\documentclass[PhD]{msu-thesis}
+%
+% for a prettier, but possibly non-compliant table of contents use the [mixedtoc] option
+% for a plain table of contents use the [plaintoc] option
+% for a horrendous looking, but possibly required table of contents, use the [boldtoc] option
+%
+% If you have large tables/figures that need to be in landscape mode, add the [lscape] option
+%
+% The class accepts 12pt, 11pt or 10pt font size options. 
+% For Times New Roman as in this example document, use 12pt (default).
+%
+% If you require per-chapter appendices add the [chapterapp] option
+%
+% If you require per-chapter bibliographies add the [chapterbib] option
+%
+% This is standard fontenc for pdflatex
+% If you use LuaLaTeX or XeLaTeX you should replace this with the fontspec package
+\usepackage[T1]{fontenc}
+%
+% If the thesis office requires Times, we'll give them Times
+% You can experiment with other font packages here if you like.
+% If you are using XeLaTeX or LuaLaTeX load  TeX Gyre Termes, Times or Times New Roman font with \setmainfont
+\usepackage{newtxtext,newtxmath} 
+%
+% Load any extra packages here
+%
+% You must specify the title of your thesis, your name, the field of study (not department), and the year
+\title{Theory and Physiology of Plant Symbiotic Relationships}
+\author{Shawna L. Rowe}
+\fieldofstudy{Plant Biology} % This should be in sentence case
+\date{2021}
+
+% If you want a dedication page, specify the text of the dedication here and uncomment the next command.
+%
+%\dedication{This thesis is dedicated to someone.}
+%
+\begin{document}
+
+% All the stuff before your actual chapters is called the front matter
+\frontmatter
+% First make the title page
+\maketitlepage
+
+% if you have public abstract (optional) it should go here
+%\begin{publicabstract}
+% Public abstract goes here
+%\end{publicabstract}
+
+% Next make the regular abstract (obligatory)
+\begin{abstract}
+% Your abstract goes here.  Master's 1 page max. PhD 2 page max.
+\end{abstract}
+
+% Force a newpage
+\clearpage
+% Make the copyright page. The Graduate School ridiculously claims that you
+% can't have a copyright page unless you pay ProQuest to register the copyright.
+% This is simply not the case, so put in your copyright page whether or not you
+% intend to pay Proquest to register the copyright.  
+
+\makecopyrightpage
+
+% If you have a dedication page, uncomment the next command to print the dedication page
+%
+%\makededicationpage
+%
+\clearpage
+% Your Acknowledgements are formatted like a chapter, but with no number
+\chapter*{Acknowledgements}
+\DoubleSpacing % Acknowledgements should be double spaced
+People and some stuff are acknowledged.
+%
+\clearpage
+% We need to turn single spacing back on for the contents/figures/tables lists
+\SingleSpacing
+\tableofcontents* % table of contents will not be listed in the TOC
+\clearpage
+\listoftables % comment this out if you have no tables
+\clearpage
+\listoffigures % comment this out if you have no figures
+%
+% If you have a list of abbreviations/symbols it would go here preceded by a \clearpage
+% See the class documentation and the Memoir manual for how to create other lists 
+%
+\mainmatter
+%
+% The next line removes the dots in chapter headings in the TOC
+% May violate thesis office rules
+%\addtocontents{toc}{\protect\renewcommand{\protect\cftchapterdotsep} {\cftnodots}}
+
+\chapter{Coercion in the Evolution of Plant-Microbe Communication}
+%
+% If you have pages that must appear in landscape mode, use the [lscape] documentclass option
+% and enclose the pages in a {landscape} environment.
+%\clearpage\pagestyle{lscape} % first clear the page and change the pagestyle
+%\begin{landscape}
+%
+% your landscape table(s) or figure(s) here
+%
+%\end{landscape}
+%\pagestyle{plain} % remember to change the pagestyle back to plain
+
+\section{INTRODUCTION} 
+Communication systems in nature provide a foundation for both intra- and interspecific interactions (Scott-Phillips 2008). Developing an understanding of how communication systems evolved is therefore key to understanding the evolution of complex relationships between species including mutualism, parasitism, competition, and commensalism. Plants, a sessile group of organisms, are dependent on molecular communication events to interact with the diverse microbial communities present in their environments (Baker et al. 2006). Recent efforts to uncover the functional significance of the plant microbiome have resulted in a new wave of questions about the evolution of the complex associations between plants and microbes. Future advances in this field will depend on a mechanistic understanding of plant-microbe communication and the evolutionary processes that underlie it. Here we discuss coercion, an evolutionary precursor to molecular signaling, in the context of plant-microbe interactions.
+While human communication relies mainly on the production and detection of visual and auditory stimuli as means of communication, plants and microbes primarily depend on secretion and detection of “infochemicals” (a term we borrow from Barto et al. 2011) to send and receive information. Infochemicals, biologically-derived molecules that contain information (i.e. those that reduce uncertainty), are secreted by one organism (i.e. the sender) and detected by another (i.e. the receiver); both plants and microbes can play the role of sender or receiver. A formal definition of the terms infochemical, sender, receiver, and others introduced here can be found in Table 1; note that the general communication theory we modify for specificity to plant-microbe interactions was originally presented by Scott-Phillips (2008) and Scott-Phillips et al. (2012). The emergence of novel plant-microbe interactions depends upon two aspects of organismal physiology: 1) both plants and microbes release a variety of chemicals into the environment; 2) both plants and microbes have a variety of chemical receptors that allow them to detect myriad chemicals. Random mutation of genes encoding metabolic pathways and of cell-surface proteins therefore allow for changes in the respective complements of chemicals both released and detected by plants and microbes. To the extent that the release and perception of these chemicals is associated with survival and reproduction, natural selection can act upon the release of novel chemicals and novel detection mechanisms favoring either sender or receiver accordingly. 
+If detection of an infochemical benefits the receiver, without benefit to the sender, the infochemical is classified as a cue. Note that we only use the term “cue” to describe a class of infochemicals throughout this article; colloquial definitions of the term and those that do not deal with infochemicals (e.g. “environmental cues” such as sunlight) should not be inferred in the text (Table 1). A recent review by van’t Padje et al. (2016) focused on the prevalence of cues on both sides of plant-microbe interactions. For example, plants are thought to use quorum sensing autoinducers released by rhizosphere bacteria as cues that convey information about bacterial abundance. Conversely, myco-heterotrophs, parasitic non-photosynthetic plants that extract carbon and nitrogen from arbuscular mycorrhizal (AM) fungi, are thought to use as-of-yet unidentified cues to locate AM fungal hyphae within the soil matrix (Rasmussen et al. 2015). 	
+The prevalence of coercion, a formal definition of which is provided in Table 1, in plant microbe interactions has yet to be investigated to the same degree. Coercive infochemicals are those that benefit the sender, without benefit to the receiver. The release of coercive infochemicals often allows the sender to take advantage of an existing evolutionary response in the receiver, which the sender can use to modify the receiver’s behavior (Figure 1). The prevalence of coercion is an oft-overlooked interaction despite its apparent presence in commonly studied systems. Here we discuss the mechanism of coercion as it applies to plant microbe interactions, and we provide examples of coercion in natural systems. Furthermore, we discuss the evolutionary outcomes of coercive interactions between plants and microbes focusing on the mechanism by which coercion, which benefits the sender, turns into signaling, which benefits both the sender and receiver, known as “sensory manipulation.” (Scott-Phillips 2008, Scott-Phillips et al. 2012). 
+
+\section{INTERSPECIFIC COERCION}
+Although not always recognized as such, many well-characterized molecular interactions between plants and their associated microbes fall into the category of coercion, where the sender benefits at the potential expense of the receiver. Two pervasive types of coercion are plant coercion of microbes via manipulation of quorum sensing and microbial coercion of plants via modulation of phytohormones. In this section we provide specific examples of each behavior within the conceptual framework of communication theory. 
+
+Plant coercion of microbes— Manipulation of quorum sensing 
+Rhizosphere microbes use quorum sensing, a form of cell-to-cell communication, to regulate a variety of behaviors including exoenzyme release (e.g. Chernin et al. 1998), biofilm formation (e.g. Danhorn and Fuqua 2007), and motility (e.g. Köhler et al. 2000). Quorum sensing relies on infochemicals known as autoinducers to provide information about the density of microbes that release these chemicals in a given environment or the diffusion environment of the microbes; this ensures that the behaviors of the aforementioned group only occur under optimal conditions. Once enough bacteria are present (or there is a low rate of diffusion, such as when the microbes are adjacent to a root surface) the total amount of autoinducers present will exceed the necessary threshold for a bacterial response to occur (Bassler 1999, Redfield 2002). Autoinducers often times directly bind to transcription factors or act upstream of transcription factors and regulate gene expression (Engebrecht and Silverman 1987). Plants can manipulate quorum sensing by releasing molecules that either mimic bacterial autoinducers or interfere with the ability of microbes to produce or detect autoinducers; we provide further examples of these phenomena below. Plants can decouple quorum sensing-controlled behaviors from microbial density thereby ensuring that those behaviors that positively affect plant fitness are favored, while those that negatively affect plant fitness are not. We suggest that the ubiquitous phenomenon of plant manipulation of quorum-sensing is a coercive act. 
+Extracts and exudates from plants have been shown to elicit quorum sensing-dependent responses in bacterial indicator strains (e.g. Chromobacterium violaceum, which uses quorum sensing to regulate production of the pigment violacin; McClean et al. 1997) suggesting that plants produce molecules that mimic bacterial autoinducers; this behavior could prevent biofilm formation which is a key component of pathogenesis for many pathogens (Pérez-Montaño et al. 2013). This type of coercive behavior in higher plants was first demonstrated in pea (Pisum sativum) (Teplitski et al. 2000) and has since been shown in rice (Oryza sativa) (Degrassi et al. 2007, (Pérez-Montaño et al. 2013).), common bean (Phaseolus vulgaris) (Perez-Montano et al. 2013), barrel medic (Medicago truncatula) (Gao et al. 2003), and a variety of medicinal plants (Tolmacheva et al. 2014). Annapoorani et al. (2012) predicted that a variety of compounds produced by plants would bind to quorum-sensing regulator genes suggesting that these compounds were autoinducer mimics. Recently, Corral-Lugo et al. (2016) tested these predicted effects of one such compounds, rosmarinic acid, and showed that this compound activates quorum sensing-controlled behavior by a variety of bacterial indicator strains.
+Plants also coerce microbes by interrupting quorum sensing through a variety of processes collectively known as quorum quenching. Mechanisms of quorum quenching found in nature include the release of enzymes such as lactonases and acylaces that degrade autoinducers, and the release of inhibitory chemicals that affect the ability of microbes to synthesize, exchange, perceive, and respond to, autoinducers (Grandclément et al. 2016). In higher plants, quorum quenching effects were first demonstrated in pea plants (Pisum sativum)  (Teplitski et al. 2000), and have since been shown in garlic (Allium sativum) (Rasmussen et al. 2005), various medicinal plants (Adonizio et al. 2006) and more-recently in tarragon (Artemisia dracunulus), radish (Raphanus raphanistrum), and hollyhock (Althea officinalis.) (Mahmoudi et al. 2014) among others. Enzymatic degradation of autoinducers in the extracellular environment, a trait common to many bacterial taxa (Rasmussen and Givskov 2006 and references therein), has yet to be shown in plants, though some are capable of intracellular enzymatic degradation of autoinducers (Palmer et al. 2014). However, plants from 21 families produce various phenolics, terpenoids, organosulfur phytochemicals, coumarins, quinones, and alkaloids that inhibit quorum sensing by a variety of mechanisms (Ta and Arnason 2015 and references therein), suggesting that plant coercion of microbes by quorum quenching may be widespread.
+While the ability of plants to manipulate quorum sensing is well documented, mostly through the use of indicator strains like Chromobacterium violaceum, we are unaware of any study that documents the in situ benefits of quorum sensing manipulation to naturally-occurring plants. However, studies involving transgenic crops that have been modified to manipulate quorum sensing give insight into the potential benefits of this form of coercion. Tobacco plants modified to produce 3-oxo-C6-Acyl-homoserine-lactone (an autoinducer used to coordinate pathogenesis by Pectobacterium cartovora, which causes bacterial soft rot in a variety of plants) were more resistant to infection by P. cartovora than unmodified plants when inoculated with the pathogen (Mae et al. 2001). The authors speculated that the high concentration of autoinducer produced by the tobacco plants caused P. cartovora to release virulence factors at lower-than-normal cell densities, thereby triggering the plant’s immune response early enough to fight off the infection. Interestingly, potato plants modified to produce a bacterial lactonase, which degrades autoinducers including 3-oxo-C6-Acyl-homoserine-lactone, were also more resistant to infection by P. cartovora than unmodified plants, presumably due to interrupting virulence responses at high cell density (Dong et al. 2001). While quorum sensing manipulation may provide unmodified plants with pathogen resistance, there are numerous other potential benefits of this form of coercion. For example, since many bacterial strains use quorum sensing to coordinate biofilm formation (Bassler 1999), plants could release specific autoinducer mimics to encourage biofilm formation, and thus colonization, by beneficial microbes along the root surface (e.g. diazotrophs, which have been shown to increase plant growth; Norman et al. 2017). Future work should seek explore the benefits of this form of coercion in natural plants in a field setting.
+
+Microbial coercion of plants—Manipulation of phytohormones 
+Phytohormones, plant hormones involved in a variety of developmental and regulatory processes, are well documented to be commonly modulated by microorganisms (Chanclud and Morel 2016). While phytohormones can have microbial functions (Glick 2015), most studies have discussed the production of phytohormones by microbes in a mutualistic fashion where microbes are interacting with plants in a beneficial manner that results in equal fitness trade-offs (Hardoim et al. 2008). Evolutionary theory demonstrates that, to understand these types of traits, we need to take the perspective of the microbial genes and ask how natural selection will act on variation that arises. If a mutation arises that alters a plant’s physiology in a way that enhances microbial fitness, then this mutation will spread through the population. Studies showing microbial modulation of plant growth typically focus on plant growth promotion and rarely consider the complex relationship that resulted in a given phenotype. Microbial production of phytohormones is nearly ubiquitous in soil-dwelling organisms and occurs in both prokaryotic and eukaryotic microorganisms including heterotrophs, phototrophs, algae, and fungi (Tsavkelova et al. 2005). However, it can be difficult to tease apart which interacting partner is acting coercively. Below, we offer examples of two phytohormones used by microbes for the manipulation of plants.  
+Gibberellins (GA) are a group of phytohormones that regulate growth and developmental processes in plants such as germination, senescence, and flowering (Sun 2010). GA were first discovered by Kurosawa (1926) in the fungal pathogen Gibberella fujikuroi. GA production was shown to be a critical factor in the excessive stem elongation in rice plants, known as “foolish seedling syndrome,” infected with G. fujikuroi and GA levels also positively correlate with virulence of the pathogen (Desjardins et al. 2000). Since GA production might be occurring to increase the total biomass available for exploitation, GA production is likely a coercive method used by microbes to facilitate plant growth. 
+Ethylene, the well-characterized phytohormone responsible for fruit ripening and numerous other plant processes (Bleecker and Kende 2000 and references therein), is another molecule used in coercive plant-microbe interactions. Some pathogenic bacteria produce a molecule called rhizobitoxine that inhibits the rate limiting enzyme in the metabolic pathway responsible for ethylene production in plants (Yasuta et al. 1999) and induces chlorosis in leaf tissue. Surprisingly, some members of the beneficial group of bacteria known as rhizobia produce rhizobitoxine (Yuhashi et al. 2000). During symbiotic associations between leguminous plants and their rhizobial counterparts, the inhibition of ethylene biosynthesis results in a hypernodulation response (i.e. more nodules are formed on root systems when ethylene is inhibited) (Penmetsa and Cook 1997). Thus, it appears that the production of rhizobitoxine may be a coercive act on the part of rhizobial partners; decreased ethylene levels increases the ability of a particular rhizobial strain to colonize the root system of host likely resulting in a net fitness gain for that particular strain. Furthermore, rhizobitoxine producers are able to hoard carbon resources in the form of poly-3-hydroxybutyrate while simultaneously reducing plant growth (Ratcliff and Denison 2009). The fitness gain at the expense of the host strongly indicates that this interaction is coercive. Developing an improved framework to understand these complex associations will allow a greater understanding of the directionality of various communication mechanisms. 
+
+\section{EVOLUTIONARY OUTCOMES OF COERCION}
+Coercive interactions currently observable in plant-microbe systems are merely a snapshot along an evolutionary trajectory with a variety of possible outcomes. The very existence of these interactions indicates a past evolutionary response by the sender. For example, while a random mutation may have initially caused a particular plant to excrete a quorum sensing mimic, fitness benefits to that plant favored the proliferation of this mutation, therefore increasing the prevalence of this coercive behavior in plant populations over time. 
+Just as evolution has played a role in the emergence of these interactions, evolution of the interacting organisms also determines the eventual fate of coercive plant-microbe interactions. Scott Phillips et al. (2012) introduced a framework by which coercive interactions either remain coercive, disappear, or transform into signaling through the process of sensory manipulation, which depends on evolution of sender and/or receiver. While the evolution of signals from cues, a process known as ritualization, has recently been explored in the context of plant microbe interactions (van’t Padje et al. 2016), sensory manipulation, an alternate pathway for the evolution of signaling that we explore here, has not. Both ritualization and sensory manipulation are shown in Figure 1. 
+
+\subsection{Stabilized coercion}
+Scott-Phillips et al. (2012) posited that coercive interactions can continue indefinitely under a given set of environmental conditions if there is no net effect of coercion on the fitness of the receiver and therefore no evolutionary pressure to change the receiver’s behavior. Though, on the surface, coercion seems to benefit the sender at the expense of the receiver, one can imagine plant-microbe interactions where the net fitness of the receiver is unaffected. Building on real examples from the literature, we propose hypothetical scenarios to examine possible evolutionary outcomes. For example, soil microbes may release a phytohormone that increases a plant’s growth rate thereby increasing the exudation of carbon subsidies to the soil environment. This increased growth rate may be advantageous to the plant, allowing it to outcompete neighboring plants for light. By increasing phytohormone levels through coercion, microbes have caused both decreases in plant fitness associated with increased carbon costs belowground and increases in fitness due to the competitive advantages associated with increased height aboveground; if these fitness effects balance out over time, and environmental conditions remain relatively stable, coercion will continue.
+
+\subsection{Elimination of coercion}
+If the fitness of the receiver is negatively impacted by coercion, then Scott-Phillips et al. (2012) predict that coercion will not continue indefinitely. Rather, evolutionary pressure will favor mutations that change receiver behavior such that the receiver will stop responding to coercive infochemicals. In the aforementioned example of a microbe releasing plant growth promoting phytohormones, we suggested that plant carbon losses associated with increased growth were ameliorated by the competitive advantages associated with increased stem height; were this not the case, one would not expect coercion to last indefinitely. If the coercive infochemical is not identical to the phytohormone that it mimics in the previous example, then slight mutations in the active sites of proteins to which the phytohormone binds that allow the plant to distinguish between the coercive infochemical and the phytohormone may be favored. If the coercive infochemical is not chemically-distinct from the phytohormone it mimics, then the mutations favored would be those that either change downstream responses to the production of said phytohormone, or those that change the hormone itself. Since drastic changes in hormonal pathways may not be possible in every case, coercion may be eliminated in some cases by the extinction of the receiver. 
+
+\subsection{Sensory manipulation} 
+Sensory manipulation is an evolutionary process by which coercion becomes communication (Figure 1). Scott-Phillips et al. (2012) constructed an evolutionary model to show that a coercive interaction turns communicative (i.e. a coercive infochemical becomes a signal) only if the receiver’s response to coercion has a fitness benefit for the receiver; if the receiver’s response has neutral or negative fitness effects, the coercive interaction will either stabilize or disappear over evolutionary time. 
+A possible example of this can be found in microbially-secreted phytohormones. The auxin, indole-3-acetic acid (IAA) is one of the most-studied microbially-derived phytohormones. Auxins are the primary regulators of plant growth and production of IAA has been shown to significantly increase root biomass in associated plants. Studies conducted on Klebsiella planticola, a representative plant growth promoting rhizobacterium, show that secretion of IAA in the presence of plants improves germination, root growth, and robustness to environmental factors (Binkov et al. 2013). The improvement of these traits specifically benefits the associated rhizobacteria. Additionally, the gall-forming plant pathogen, Agrobacterium tumefacians, releases IAA during the infection process; this activity has been strongly correlated with increased virulence (Morris 1986). Research shows that IAA production by microbes is generally used to modulate plant growth. Pathogenic interactions should serve as reminders that this act is not altruistic on the side of the microbe and thus represents a coercive interaction. However, when additional information is considered, it is apparent that IAA biosynthesis by microbes represents only half of a communication system used by plants and microbes (Lambrecht et al. 2000). It has been shown that the root secretion of L-tryptophan results in greater production of IAA (Karnwal 2009). Extending this further, it is possible that the two organisms have developed a communication system as a byproduct of previously coercive acts. Thus, what began as coercion may have evolved into a signal and can be categorized as sensory manipulation. Developing an improved framework to understand these complex associations will allow a greater understanding of the directionality of various communication mechanisms. 
+While Scott-Phillips et al. (2012) posit that ritualization, the evolution of signals from cues (Figure 1), is a more common pathway for the evolution of signaling than sensory manipulation, this theory is rooted in animal communication rather than plants and microbes. Since microbes have much faster evolutionary rates than plants, and can act as either sender or receiver of cues, we argue that sensory manipulation could play a major role in the evolution of plant-microbe communication. As our previous examples demonstrate, interspecific interactions are complex and many of their evolutionary histories and trajectories are unknown. We presented the release of autoinducers by plants and the modulation of phytohormones by microbes as coercive acts in interspecific interactions between plants and microbes. Given the right evolutionary pressure, both of these interactions could evolve into signals via sensory manipulation. Though the aforementioned examples could be stable over evolutionary time, other forms of signaling may have evolved by similar means. The sensory manipulation process could provide a functional framework to understand the evolutionary fates of coercive interactions as well as the evolution of certain signaling mechanisms and defection within seemingly established relationships.
+
+\section{CONCLUSIONS} 
+Developing an understanding of coercion is critical to forming a complete framework for the study of plant-microbe interactions, including the evolution of signaling. Here, we show that two commonly studied plant-microbe interactions, plant manipulation of microbial quorum sensing and microbial manipulation of plant hormones, are properly categorized as coercive interactions. Furthermore, currently-observable coercive interactions such as these may meet multiple evolutionary fates: stabilize and remain coercive, destabilize and disappear, or turn into signaling through the process of sensory manipulation. A complete understanding of coercion is required for a comprehensive view of the drivers of plant and microbe behaviors in natural systems, understanding future evolutionary trajectories of currently observable plant-microbe interactions, and past evolutionary histories of plant-microbe signaling. Plants are constantly in association with a vast number of organisms representing multiple kingdoms; although we present this framework in the context of two agent interactions, we acknowledge that there may be emergent properties resulting from the inherent biodiversity of microbial communities in association with plants beyond what are discussed here. Finally, future investigations should consider sensory manipulation alongside ritualization, the evolution of signals from cues, when delving into the evolutionary history of plant-microbe signaling. 
+%
+% If you have appendices, they would go here.  
+% If you only have one appendix it will look like this: (comment this out if you have no appendices)
+%\begin{appendix}
+%	\chapter{Your appendix}
+%\end{appendix}
+%
+%
+% If you have more than one appendix, you need to use 
+%   \begin{appendices}
+	%   \chapter{First appendix}
+	%   \chapter{Second appendix}
+	%   \end{appendices}
+%
+% If each chapter has its own set of appendices, then load the class with the [chapterapp] option
+% and put your {appendix} or {appendices} environments at the end of each chapter.
+%
+%\backmatter
+% The next lines add the dots back into the References/Bibliography heading
+% of the TOC.  Only uncomment this if you need to put the dots back in having removed them for Chapter headings.
+%
+%\addtocontents{toc}{%
+	%   \protect\renewcommand{\protect\cftchapterdotsep} {\cftdotsep}}
+%
+\makebibliographypage % make the bibliography cover page
+%
+%
+% Your bibliography command here 
+% e.g. \bibliography{your-bib-file}) if using natbib
+% e.g. \printbibliography if using biblatex
+%
+% Remember that although the bibliography is single spaced, there needs to
+% be a blank line between entries. This is set by your bibliography package
+% If you are using natbib it is \bibsep; if using biblatex it's \bibitemsep
+% These are set automatically by the class if you are using these packages
+%
+% If you need per-chapter bibliographies, you need to use the [chapterbib]
+% class option and you would use \makebibliographypage before each
+% chapter level bibliography and then the relevant bibliography command
+
+\chapter{Development of a high-throughput method for analyzing multiple plant defensive compounds in minimized sample masses to investigate the rapid evolution of plant herbivory interactions}
+%
+% If you have pages that must appear in landscape mode, use the [lscape] documentclass option
+% and enclose the pages in a {landscape} environment.
+%\clearpage\pagestyle{lscape} % first clear the page and change the pagestyle
+%\begin{landscape}
+%
+% your landscape table(s) or figure(s) here
+%
+%\end{landscape}
+%\pagestyle{plain} % remember to change the pagestyle back to plain
+%
+%
+% If you have appendices, they would go here.  
+% If you only have one appendix it will look like this: (comment this out if you have no appendices)
+%\begin{appendix}
+%	\chapter{Your appendix}
+%\end{appendix}
+%
+%
+% If you have more than one appendix, you need to use 
+%   \begin{appendices}
+	%   \chapter{First appendix}
+	%   \chapter{Second appendix}
+	%   \end{appendices}
+%
+% If each chapter has its own set of appendices, then load the class with the [chapterapp] option
+% and put your {appendix} or {appendices} environments at the end of each chapter.
+%
+%\backmatter
+% The next lines add the dots back into the References/Bibliography heading
+% of the TOC.  Only uncomment this if you need to put the dots back in having removed them for Chapter headings.
+%
+%\addtocontents{toc}{%
+	%   \protect\renewcommand{\protect\cftchapterdotsep} {\cftdotsep}}
+%
+\makebibliographypage % make the bibliography cover page
+%
+%
+% Your bibliography command here 
+% e.g. \bibliography{your-bib-file}) if using natbib
+% e.g. \printbibliography if using biblatex
+%
+% Remember that although the bibliography is single spaced, there needs to
+% be a blank line between entries. This is set by your bibliography package
+% If you are using natbib it is \bibsep; if using biblatex it's \bibitemsep
+% These are set automatically by the class if you are using these packages
+%
+% If you need per-chapter bibliographies, you need to use the [chapterbib]
+% class option and you would use \makebibliographypage before each
+% chapter level bibliography and then the relevant bibliography command
+%
+\chapter{Design of a robust system for the study of plant-arbuscular mycorrhizal fungi mutualisms and application for the study of nitrogen uptake and exchange dynamics}
+%
+% If you have pages that must appear in landscape mode, use the [lscape] documentclass option
+% and enclose the pages in a {landscape} environment.
+%\clearpage\pagestyle{lscape} % first clear the page and change the pagestyle
+%\begin{landscape}
+%
+% your landscape table(s) or figure(s) here
+%
+%\end{landscape}
+%\pagestyle{plain} % remember to change the pagestyle back to plain
+%
+%
+% If you have appendices, they would go here.  
+% If you only have one appendix it will look like this: (comment this out if you have no appendices)
+\begin{appendix}
+	\chapter{Your appendix}
+\end{appendix}
+%
+%
+% If you have more than one appendix, you need to use 
+%   \begin{appendices}
+	%   \chapter{First appendix}
+	%   \chapter{Second appendix}
+	%   \end{appendices}
+%
+% If each chapter has its own set of appendices, then load the class with the [chapterapp] option
+% and put your {appendix} or {appendices} environments at the end of each chapter.
+%
+\backmatter
+% The next lines add the dots back into the References/Bibliography heading
+% of the TOC.  Only uncomment this if you need to put the dots back in having removed them for Chapter headings.
+%
+%\addtocontents{toc}{%
+	%   \protect\renewcommand{\protect\cftchapterdotsep} {\cftdotsep}}
+%
+\makebibliographypage % make the bibliography cover page
+%
+%
+% Your bibliography command here 
+% e.g. \bibliography{your-bib-file}) if using natbib
+% e.g. \printbibliography if using biblatex
+%
+% Remember that although the bibliography is single spaced, there needs to
+% be a blank line between entries. This is set by your bibliography package
+% If you are using natbib it is \bibsep; if using biblatex it's \bibitemsep
+% These are set automatically by the class if you are using these packages
+%
+% If you need per-chapter bibliographies, you need to use the [chapterbib]
+% class option and you would use \makebibliographypage before each
+% chapter level bibliography and then the relevant bibliography command
+%
+\end{document}
+

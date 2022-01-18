@@ -1,0 +1,410 @@
+\begin{thebibliography}{43}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Annapoorani et~al.(2012)Annapoorani, Umamageswaran, Parameswari,
+  Pandian, and Ravi]{annapoorani2012}
+Angusamy Annapoorani, Venugopal Umamageswaran, Radhakrishnan Parameswari,
+  Shunmugiah~Karutha Pandian, and Arumugam~Veera Ravi.
+\newblock Computational discovery of putative quorum sensing inhibitors against
+  {{LasR}} and {{RhlR}} receptor proteins of {{Pseudomonas}} aeruginosa.
+\newblock \emph{Journal of Computer-Aided Molecular Design}, 26\penalty0
+  (9):\penalty0 1067--1077, September 2012.
+\newblock ISSN 0920-654X, 1573-4951.
+\newblock \doi{10.1007/s10822-012-9599-1}.
+
+\bibitem[Baker et~al.(1997)Baker, Zambryski, Staskawicz, and
+  {Dinesh-Kumar}]{baker1997}
+Barbara Baker, Patricia Zambryski, Brian Staskawicz, and S.~P. {Dinesh-Kumar}.
+\newblock Signaling in {{Plant-Microbe Interactions}}.
+\newblock \emph{Science}, 276\penalty0 (5313):\penalty0 726--733, May 1997.
+\newblock ISSN 0036-8075, 1095-9203.
+\newblock \doi{10.1126/science.276.5313.726}.
+
+\bibitem[Barto et~al.(2012)Barto, Weidenhamer, Cipollini, and
+  Rillig]{barto2012}
+E.~Kathryn Barto, Jeffrey~D. Weidenhamer, Don Cipollini, and Matthias~C.
+  Rillig.
+\newblock Fungal superhighways: Do common mycorrhizal networks enhance below
+  ground communication?
+\newblock \emph{Trends in Plant Science}, 17\penalty0 (11):\penalty0 633--637,
+  November 2012.
+\newblock ISSN 1360-1385.
+\newblock \doi{10.1016/j.tplants.2012.06.007}.
+
+\bibitem[Bassler(1999)]{bassler1999}
+B.~L. Bassler.
+\newblock How bacteria talk to each other: Regulation of gene expression by
+  quorum sensing.
+\newblock \emph{Current Opinion in Microbiology}, 2\penalty0 (6):\penalty0
+  582--587, December 1999.
+\newblock ISSN 1369-5274.
+\newblock \doi{10.1016/s1369-5274(99)00025-9}.
+
+\bibitem[Bleecker and Kende(2000)]{bleecker2000}
+A.~B. Bleecker and H.~Kende.
+\newblock Ethylene: A gaseous signal molecule in plants.
+\newblock \emph{Annual Review of Cell and Developmental Biology}, 16:\penalty0
+  1--18, 2000.
+\newblock ISSN 1081-0706.
+\newblock \doi{10.1146/annurev.cellbio.16.1.1}.
+
+\bibitem[Blinkov et~al.(2014 Sep-Oct)Blinkov, Tsavkelova, and
+  Selitskaia]{blinkov2014}
+E.~A. Blinkov, E.~A. Tsavkelova, and O.~V. Selitskaia.
+\newblock {[Auxin production by Klebsiella planticola strain TSKhA-91 and Its
+  Effect of development of cucumber (Cucumis sativus L.) Seeds]}.
+\newblock \emph{Mikrobiologiia}, 83\penalty0 (5):\penalty0 543--551, 2014
+  Sep-Oct.
+\newblock ISSN 0026-3656.
+
+\bibitem[Chanclud and Morel(2016)]{chanclud2016}
+Emilie Chanclud and Jean-Benoit Morel.
+\newblock Plant hormones: A fungal point of view.
+\newblock \emph{Molecular Plant Pathology}, 17\penalty0 (8):\penalty0
+  1289--1297, 2016.
+\newblock ISSN 1364-3703.
+\newblock \doi{10.1111/mpp.12393}.
+
+\bibitem[Chernin et~al.(1998)Chernin, Winson, Thompson, Haran, Bycroft, Chet,
+  Williams, and Stewart]{chernin1998}
+L.~S. Chernin, M.~K. Winson, J.~M. Thompson, S.~Haran, B.~W. Bycroft, I.~Chet,
+  P.~Williams, and G.~S. Stewart.
+\newblock Chitinolytic activity in {{Chromobacterium}} violaceum: Substrate
+  analysis and regulation by quorum sensing.
+\newblock \emph{Journal of Bacteriology}, 180\penalty0 (17):\penalty0
+  4435--4441, September 1998.
+\newblock ISSN 0021-9193.
+\newblock \doi{10.1128/JB.180.17.4435-4441.1998}.
+
+\bibitem[{Corral-Lugo} et~al.(2016){Corral-Lugo}, Daddaoua, Ortega,
+  {Espinosa-Urgel}, and Krell]{corral-lugo2016}
+Andr{\'e}s {Corral-Lugo}, Abdelali Daddaoua, Alvaro Ortega, Manuel
+  {Espinosa-Urgel}, and Tino Krell.
+\newblock Rosmarinic acid is a homoserine lactone mimic produced by plants that
+  activates a bacterial quorum-sensing regulator.
+\newblock \emph{Science Signaling}, 9\penalty0 (409):\penalty0 ra1, January
+  2016.
+\newblock ISSN 1937-9145.
+\newblock \doi{10.1126/scisignal.aaa8271}.
+
+\bibitem[Danhorn and Fuqua(2007)]{danhorn2007}
+Thomas Danhorn and Clay Fuqua.
+\newblock Biofilm {{Formation}} by {{Plant-Associated Bacteria}}.
+\newblock \emph{Annual Review of Microbiology}, 61\penalty0 (1):\penalty0
+  401--422, 2007.
+\newblock \doi{10.1146/annurev.micro.61.080706.093316}.
+
+\bibitem[Degrassi et~al.(2007)Degrassi, Devescovi, Solis, Steindler, and
+  Venturi]{degrassi2007}
+Giuliano Degrassi, Giulia Devescovi, Renando Solis, Laura Steindler, and
+  Vittorio Venturi.
+\newblock Oryza sativa rice plants contain molecules that activate different
+  quorum-sensing {{N-acyl}} homoserine lactone biosensors and are sensitive to
+  the specific {{AiiA}} lactonase.
+\newblock \emph{FEMS Microbiology Letters}, 269\penalty0 (2):\penalty0
+  213--220, 2007.
+\newblock ISSN 1574-6968.
+\newblock \doi{10.1111/j.1574-6968.2006.00624.x}.
+
+\bibitem[Desjardins et~al.(2000)Desjardins, Manandhar, Plattner, Maragos,
+  Shrestha, and McCormick]{desjardins2000}
+A.E. Desjardins, G.~Manandhar, R.D. Plattner, C.M. Maragos, K.~Shrestha, and
+  S.P. McCormick.
+\newblock Occurrence of {{Fusarium}} species and mycotoxins in nepalese maize
+  and wheat and the effect of traditional processing methods on mycotoxin
+  levels.
+\newblock \emph{Journal of agricultural and food chemistry}, 48\penalty0
+  (4):\penalty0 1377--1383, April 2000.
+\newblock ISSN 0021-8561.
+\newblock \doi{10.1021/jf991022b}.
+
+\bibitem[Dong et~al.(2001)Dong, Wang, Xu, Zhang, Zhang, and Zhang]{dong2001}
+Y.~H. Dong, L.~H. Wang, J.~L. Xu, H.~B. Zhang, X.~F. Zhang, and L.~H. Zhang.
+\newblock Quenching quorum-sensing-dependent bacterial infection by an
+  {{N-acyl}} homoserine lactonase.
+\newblock \emph{Nature}, 411\penalty0 (6839):\penalty0 813--817, June 2001.
+\newblock ISSN 0028-0836.
+\newblock \doi{10.1038/35081101}.
+
+\bibitem[Engebrecht and Silverman(1987)]{engebrecht1987}
+J~Engebrecht and M~Silverman.
+\newblock Nucleotide sequence of the regulatory locus controlling expression of
+  bacterial genes for bioluminescence.
+\newblock \emph{Nucleic Acids Research}, 15\penalty0 (24):\penalty0
+  10455--10467, December 1987.
+\newblock ISSN 0305-1048.
+
+\bibitem[Gao et~al.(2003)Gao, Teplitski, Robinson, and Bauer]{gao2003}
+Mengsheng Gao, Max Teplitski, Jayne~B. Robinson, and Wolfgang~D. Bauer.
+\newblock Production of {{Substances}} by {{Medicago}} truncatula that {{Affect
+  Bacterial Quorum Sensing}}.
+\newblock \emph{Molecular Plant-Microbe Interactions\textregistered},
+  16\penalty0 (9):\penalty0 827--834, September 2003.
+\newblock ISSN 0894-0282.
+\newblock \doi{10.1094/MPMI.2003.16.9.827}.
+
+\bibitem[Glick(2020)]{glick2020}
+Bernard~R. Glick.
+\newblock Modulating {{Phytohormone Levels}}.
+\newblock In Bernard~R. Glick, editor, \emph{Beneficial {{Plant-Bacterial
+  Interactions}}}, pages 139--180. {Springer International Publishing}, {Cham},
+  2020.
+\newblock ISBN 978-3-030-44368-9.
+\newblock \doi{10.1007/978-3-030-44368-9_5}.
+
+\bibitem[Grandcl{\'e}ment et~al.(2016)Grandcl{\'e}ment, Tanni{\`e}res,
+  Mor{\'e}ra, Dessaux, and Faure]{grandclement2016}
+Catherine Grandcl{\'e}ment, M{\'e}lanie Tanni{\`e}res, Solange Mor{\'e}ra, Yves
+  Dessaux, and Denis Faure.
+\newblock Quorum quenching: Role in nature and applied developments.
+\newblock \emph{FEMS microbiology reviews}, 40\penalty0 (1):\penalty0 86--116,
+  January 2016.
+\newblock ISSN 1574-6976.
+\newblock \doi{10.1093/femsre/fuv038}.
+
+\bibitem[Hardoim et~al.(2008)Hardoim, {van Overbeek}, and van
+  Elsas]{hardoim2008}
+Pablo~R. Hardoim, Leo~S. {van Overbeek}, and Jan~Dirk van Elsas.
+\newblock Properties of bacterial endophytes and their proposed role in plant
+  growth.
+\newblock \emph{Trends in Microbiology}, 16\penalty0 (10):\penalty0 463--471,
+  October 2008.
+\newblock ISSN 0966-842X.
+\newblock \doi{10.1016/j.tim.2008.07.008}.
+
+\bibitem[Karnwal(2009)]{karnwal2009}
+Arun Karnwal.
+\newblock Production of indole acetic acid by fluorescent {{Pseudomonas}} in
+  the presence of {{L-tryptophan}} and rice root exudates.
+\newblock \emph{JOURNAL OF PLANT PATHOLOGY}, 91, March 2009.
+\newblock \doi{10.4454/jpp.v91i1.624}.
+
+\bibitem[K{\"o}hler et~al.(2000)K{\"o}hler, Curty, Barja, {van Delden}, and
+  Pech{\`e}re]{kohler2000}
+T.~K{\"o}hler, L.~K. Curty, F.~Barja, C.~{van Delden}, and J.~C. Pech{\`e}re.
+\newblock Swarming of {{Pseudomonas}} aeruginosa is dependent on cell-to-cell
+  signaling and requires flagella and pili.
+\newblock \emph{Journal of Bacteriology}, 182\penalty0 (21):\penalty0
+  5990--5996, November 2000.
+\newblock ISSN 0021-9193.
+\newblock \doi{10.1128/JB.182.21.5990-5996.2000}.
+
+\bibitem[Lambrecht et~al.(2000)Lambrecht, Okon, Broek, and
+  Vanderleyden]{lambrecht2000}
+Mark Lambrecht, Yaacov Okon, Ann~Vande Broek, and Jos Vanderleyden.
+\newblock Indole-3-acetic acid: A reciprocal signalling molecule in
+  bacteria\textendash plant interactions.
+\newblock \emph{Trends in Microbiology}, 8\penalty0 (7):\penalty0 298--300,
+  July 2000.
+\newblock ISSN 0966-842X, 1878-4380.
+\newblock \doi{10.1016/S0966-842X(00)01732-7}.
+
+\bibitem[M{\"a}e et~al.(2001)M{\"a}e, Montesano, Koiv, and Palva]{mae2001}
+Andres M{\"a}e, Marcos Montesano, Viia Koiv, and E.~Tapio Palva.
+\newblock Transgenic {{Plants Producing}} the {{Bacterial Pheromone
+  N-Acyl-Homoserine Lactone Exhibit Enhanced Resistance}} to the {{Bacterial
+  Phytopathogen Erwinia}} carotovora.
+\newblock \emph{Molecular Plant-Microbe Interactions\textregistered},
+  14\penalty0 (9):\penalty0 1035--1042, September 2001.
+\newblock ISSN 0894-0282.
+\newblock \doi{10.1094/MPMI.2001.14.9.1035}.
+
+\bibitem[Mahmoudi et~al.(2014)Mahmoudi, Tarzaban, and Khodaygan]{mahmoudi2014}
+E.~Mahmoudi, S.~Tarzaban, and P.~Khodaygan.
+\newblock {{DUAL BEHAVIOUR OF PLANTS AGAINST BACTERIAL QUORUM SENSING}}:
+  {{INHIBITION OR EXCITATION}}.
+\newblock \emph{Journal of Plant Pathology}, 96\penalty0 (2):\penalty0
+  295--301, July 2014.
+\newblock ISSN 1125-4653.
+\newblock \doi{10.4454/JPP.V96I2.041}.
+
+\bibitem[McClean et~al.(1997)McClean, Winson, Fish, Taylor, Chhabra, Camara,
+  Daykin, Lamb, Swift, Bycroft, Stewart, and Williams]{mcclean1997}
+Kay~H. McClean, Michael~K. Winson, Leigh Fish, Adrian Taylor, Siri~Ram Chhabra,
+  Miguel Camara, Mavis Daykin, John~H. Lamb, Simon Swift, Barrie~W. Bycroft,
+  Gordon S. A.~B. Stewart, and PaulYR~1997 Williams.
+\newblock Quorum sensing and {{Chromobacterium}} violaceum: Exploitation of
+  violacein production and inhibition for the detection of {{N-acylhomoserine}}
+  lactones.
+\newblock \emph{Microbiology}, 143\penalty0 (12):\penalty0 3703--3711, 1997.
+\newblock ISSN 1465-2080,.
+\newblock \doi{10.1099/00221287-143-12-3703}.
+
+\bibitem[Morris(1986)]{morris1986}
+R~O Morris.
+\newblock Genes {{Specifying Auxin}} and {{Cytokinin Biosynthesis}} in
+  {{Phytopathogens}}.
+\newblock \emph{Annual Reviews Plant Physiology}, page~30, 1986.
+
+\bibitem[Norman et~al.(2017)Norman, Hare, and Friesen]{norman2017}
+Jeffrey~S. Norman, Jake~R. Hare, and Maren~L. Friesen.
+\newblock Comment: {{Isolation}} and {{Screening}} of {{Bacteria}} for {{Their
+  Diazotrophic Potential}} and {{Their Influence}} on {{Growth Promotion}} of
+  {{Maize Seedlings}} in {{Greenhouses}}.
+\newblock \emph{Frontiers in Plant Science}, 8:\penalty0 212, 2017.
+\newblock ISSN 1664-462X.
+\newblock \doi{10.3389/fpls.2017.00212}.
+
+\bibitem[Palmer et~al.(2014)Palmer, Senechal, Mukherjee, An{\'e}, and
+  Blackwell]{palmer2014}
+Andrew~G. Palmer, Amanda~C. Senechal, Arijit Mukherjee, Jean-Michel An{\'e},
+  and Helen~E. Blackwell.
+\newblock Plant {{Responses}} to {{Bacterial N-Acyl}} l-{{Homoserine Lactones}}
+  are {{Dependent}} on {{Enzymatic Degradation}} to l-{{Homoserine}}.
+\newblock \emph{ACS Chemical Biology}, 9\penalty0 (8):\penalty0 1834--1845,
+  August 2014.
+\newblock ISSN 1554-8929.
+\newblock \doi{10.1021/cb500191a}.
+
+\bibitem[Penmetsa and Cook(1997)]{penmetsa1997}
+R.~Varma Penmetsa and Douglas~R. Cook.
+\newblock A {{Legume Ethylene-Insensitive Mutant Hyperinfected}} by {{Its
+  Rhizobial Symbiont}}.
+\newblock \emph{Science}, 275\penalty0 (5299):\penalty0 527--530, January 1997.
+\newblock ISSN 0036-8075, 1095-9203.
+\newblock \doi{10.1126/science.275.5299.527}.
+
+\bibitem[{P{\'e}rez-Monta{\~n}o} et~al.(2013){P{\'e}rez-Monta{\~n}o},
+  {Jim{\'e}nez-Guerrero}, {Contreras S{\'a}nchez-Matamoros}, {L{\'o}pez-Baena},
+  Ollero, {Rodr{\'i}guez-Carvajal}, Bellog{\'i}n, and
+  Espuny]{perez-montano2013}
+Francisco {P{\'e}rez-Monta{\~n}o}, Irene {Jim{\'e}nez-Guerrero}, Roc{\'i}o
+  {Contreras S{\'a}nchez-Matamoros}, Francisco~Javier {L{\'o}pez-Baena},
+  Francisco~Javier Ollero, Miguel~A. {Rodr{\'i}guez-Carvajal}, Ram{\'o}n~A.
+  Bellog{\'i}n, and M.~Rosario Espuny.
+\newblock Rice and bean {{AHL-mimic}} quorum-sensing signals specifically
+  interfere with the capacity to form biofilms by plant-associated bacteria.
+\newblock \emph{Research in Microbiology}, 164\penalty0 (7):\penalty0 749--760,
+  September 2013.
+\newblock ISSN 0923-2508.
+\newblock \doi{10.1016/j.resmic.2013.04.001}.
+
+\bibitem[Rasmussen et~al.(2015)Rasmussen, Dixon, Jers{\'a}kov{\'a}, and T{\v
+  e}{\v s}itelov{\'a}]{rasmussen2015}
+Hanne~N. Rasmussen, Kingsley~W. Dixon, Jana Jers{\'a}kov{\'a}, and Tamara T{\v
+  e}{\v s}itelov{\'a}.
+\newblock Germination and seedling establishment in orchids: A complex of
+  requirements.
+\newblock \emph{Annals of Botany}, 116\penalty0 (3):\penalty0 391--402,
+  September 2015.
+\newblock ISSN 0305-7364.
+\newblock \doi{10.1093/aob/mcv087}.
+
+\bibitem[Rasmussen and Givskov(2006)]{rasmussen2006}
+Thomas~B. Rasmussen and MichaelYR~2006 Givskov.
+\newblock Quorum sensing inhibitors: A bargain of effects.
+\newblock \emph{Microbiology}, 152\penalty0 (4):\penalty0 895--904, 2006.
+\newblock ISSN 1465-2080,.
+\newblock \doi{10.1099/mic.0.28601-0}.
+
+\bibitem[Ratcliff and Denison(2009)]{ratcliff2009}
+William~C. Ratcliff and R.~Ford Denison.
+\newblock Rhizobitoxine producers gain more poly-3-hydroxybutyrate in symbiosis
+  than do competing rhizobia, but reduce plant growth.
+\newblock \emph{The ISME Journal}, 3\penalty0 (7):\penalty0 870--872, July
+  2009.
+\newblock ISSN 1751-7370.
+\newblock \doi{10.1038/ismej.2009.38}.
+
+\bibitem[Redfield(2002)]{redfield2002}
+Rosemary~J. Redfield.
+\newblock Is quorum sensing a side effect of diffusion sensing?
+\newblock \emph{Trends in Microbiology}, 10\penalty0 (8):\penalty0 365--370,
+  August 2002.
+\newblock ISSN 0966-842X, 1878-4380.
+\newblock \doi{10.1016/S0966-842X(02)02400-9}.
+
+\bibitem[{Scott-Phillips}(2008)]{scott-phillips2008}
+T.~C. {Scott-Phillips}.
+\newblock Defining biological communication.
+\newblock \emph{Journal of Evolutionary Biology}, 21\penalty0 (2):\penalty0
+  387--395, 2008.
+\newblock ISSN 1420-9101.
+\newblock \doi{10.1111/j.1420-9101.2007.01497.x}.
+
+\bibitem[{Scott-Phillips} et~al.(2012){Scott-Phillips}, Blythe, Gardner, and
+  West]{scott-phillips2012}
+Thomas~C. {Scott-Phillips}, Richard~A. Blythe, Andy Gardner, and Stuart~A.
+  West.
+\newblock How do communication systems emerge?
+\newblock \emph{Proceedings of the Royal Society B: Biological Sciences},
+  279\penalty0 (1735):\penalty0 1943--1949, May 2012.
+\newblock ISSN 0962-8452, 1471-2954.
+\newblock \doi{10.1098/rspb.2011.2181}.
+
+\bibitem[Sun(2010)]{sun2010}
+Tai-ping Sun.
+\newblock Gibberellin {{Signal Transduction}} in {{Stem Elongation}} \& {{Leaf
+  Growth}}.
+\newblock In Peter~J. Davies, editor, \emph{Plant {{Hormones}}:
+  {{Biosynthesis}}, {{Signal Transduction}}, {{Action}}!}, pages 308--328.
+  {Springer Netherlands}, {Dordrecht}, 2010.
+\newblock ISBN 978-1-4020-2686-7.
+\newblock \doi{10.1007/978-1-4020-2686-7_15}.
+
+\bibitem[Ta and Arnason(2016)]{ta2016}
+Chieu Anh~Kim Ta and John~Thor Arnason.
+\newblock Mini {{Review}} of {{Phytochemicals}} and {{Plant Taxa}} with
+  {{Activity}} as {{Microbial Biofilm}} and {{Quorum Sensing Inhibitors}}.
+\newblock \emph{Molecules}, 21\penalty0 (1):\penalty0 29, January 2016.
+\newblock \doi{10.3390/molecules21010029}.
+
+\bibitem[Teplitski et~al.(2000)Teplitski, Robinson, and Bauer]{teplitski2000}
+Max Teplitski, Jayne~B. Robinson, and Wolfgang~D. Bauer.
+\newblock Plants {{Secrete Substances That Mimic Bacterial N-Acyl Homoserine
+  Lactone Signal Activities}} and {{Affect Population Density-Dependent
+  Behaviors}} in {{Associated Bacteria}}.
+\newblock \emph{Molecular Plant-Microbe Interactions\textregistered},
+  13\penalty0 (6):\penalty0 637--648, June 2000.
+\newblock ISSN 0894-0282.
+\newblock \doi{10.1094/MPMI.2000.13.6.637}.
+
+\bibitem[Tolmacheva et~al.(2014)Tolmacheva, Rogozhin, and
+  Deryabin]{tolmacheva2014}
+Anna~A. Tolmacheva, Eugene~A. Rogozhin, and Dmitry~G. Deryabin.
+\newblock Antibacterial and quorum sensing regulatory activities of some
+  traditional {{Eastern-European}} medicinal plants.
+\newblock \emph{Acta Pharmaceutica}, 64\penalty0 (2):\penalty0 173--186, May
+  2014.
+\newblock \doi{10.2478/acph-2014-0019}.
+
+\bibitem[Tsavkelova et~al.(2005)Tsavkelova, Cherdyntseva, and
+  Netrusov]{tsavkelova2005}
+E.~A. Tsavkelova, T.~A. Cherdyntseva, and A.~I. Netrusov.
+\newblock Auxin production by bacteria associated with orchid roots.
+\newblock \emph{Microbiology}, 74\penalty0 (1):\penalty0 46--53, January 2005.
+\newblock ISSN 1608-3237.
+\newblock \doi{10.1007/s11021-005-0027-6}.
+
+\bibitem[van't Padje et~al.(2016)van't Padje, Whiteside, and Kiers]{padje2016}
+Anouk van't Padje, Matthew~D Whiteside, and E~Toby Kiers.
+\newblock Signals and cues in the evolution of plant\textendash microbe
+  communication.
+\newblock \emph{Current Opinion in Plant Biology}, 32:\penalty0 47--52, August
+  2016.
+\newblock ISSN 1369-5266.
+\newblock \doi{10.1016/j.pbi.2016.06.006}.
+
+\bibitem[Yasuta et~al.(1999)Yasuta, Satoh, and Minamisawa]{yasuta1999}
+Tsuyoshi Yasuta, Shigeru Satoh, and Kiwamu Minamisawa.
+\newblock New {{Assay}} for {{Rhizobitoxine Based}} on {{Inhibition}} of
+  1-{{Aminocyclopropane-1-Carboxylate Synthase}}.
+\newblock \emph{Applied and Environmental Microbiology}, 65\penalty0
+  (2):\penalty0 849--852, February 1999.
+\newblock ISSN 0099-2240, 1098-5336.
+\newblock \doi{10.1128/AEM.65.2.849-852.1999}.
+
+\bibitem[Yuhashi et~al.(2000)Yuhashi, Ichikawa, Ezura, Akao, Minakawa, Nukui,
+  Yasuta, and Minamisawa]{yuhashi2000}
+Ken-Ichi Yuhashi, Norikazu Ichikawa, Hiroshi Ezura, Shoichiro Akao, Yasuo
+  Minakawa, Noriyuki Nukui, Tsuyoshi Yasuta, and Kiwamu Minamisawa.
+\newblock Rhizobitoxine {{Production}} by {{Bradyrhizobium}} elkanii {{Enhances
+  Nodulation}} and {{Competitiveness onMacroptilium}} atropurpureum.
+\newblock \emph{Applied and Environmental Microbiology}, June 2000.
+\newblock \doi{10.1128/AEM.66.6.2658-2663.2000}.
+
+\end{thebibliography}

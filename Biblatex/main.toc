@@ -1,0 +1,47 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{2}\relax 
+\contentsline {chapter}{List of Tables}{vi}{}%
+\defcounter {refsection}{2}\relax 
+\contentsline {chapter}{List of Figures}{vii}{}%
+\defcounter {refsection}{2}\relax 
+\contentsline {chapter}{\chapternumberline {1}Coercion in the Evolution of Plant-Microbe Communication}{1}{}%
+\defcounter {refsection}{3}\relax 
+\contentsline {section}{\numberline {1.1}INTRODUCTION}{1}{}%
+\defcounter {refsection}{3}\relax 
+\contentsline {section}{\numberline {1.2}INTERSPECIFIC COERCION}{3}{}%
+\defcounter {refsection}{3}\relax 
+\contentsline {subsection}{\numberline {1.2.1}Plant coercion of microbes— Manipulation of quorum sensing}{3}{}%
+\defcounter {refsection}{3}\relax 
+\contentsline {subsection}{\numberline {1.2.2}Microbial coercion of plants—Manipulation of phytohormones}{5}{}%
+\defcounter {refsection}{3}\relax 
+\contentsline {section}{\numberline {1.3}EVOLUTIONARY OUTCOMES OF COERCION}{7}{}%
+\defcounter {refsection}{3}\relax 
+\contentsline {subsection}{\numberline {1.3.1}Stabilized coercion}{7}{}%
+\defcounter {refsection}{3}\relax 
+\contentsline {subsection}{\numberline {1.3.2}Elimination of coercion}{8}{}%
+\defcounter {refsection}{3}\relax 
+\contentsline {subsection}{\numberline {1.3.3}Sensory manipulation}{9}{}%
+\defcounter {refsection}{3}\relax 
+\contentsline {section}{\numberline {1.4}CONCLUSIONS}{10}{}%
+\defcounter {refsection}{3}\relax 
+\cftinsert {BIB}
+\defcounter {refsection}{3}\relax 
+\changetocdepth {3}
+\defcounter {refsection}{3}\relax 
+\contentsline {chapter}{Bibliography}{12}{}%
+\defcounter {refsection}{3}\relax 
+\contentsline {chapter}{\chapternumberline {2}Development of a high-throughput method for analyzing multiple plant defensive compounds in minimized sample masses to investigate the rapid evolution of plant herbivory interactions}{13}{}%
+\defcounter {refsection}{4}\relax 
+\cftinsert {BIB}
+\defcounter {refsection}{4}\relax 
+\changetocdepth {3}
+\defcounter {refsection}{4}\relax 
+\contentsline {chapter}{Bibliography}{14}{}%
+\defcounter {refsection}{4}\relax 
+\contentsline {chapter}{\chapternumberline {3}Design of a robust system for the study of plant-arbuscular mycorrhizal fungi mutualisms and application for the study of nitrogen uptake and exchange dynamics}{15}{}%
+\defcounter {refsection}{5}\relax 
+\cftinsert {BIB}
+\defcounter {refsection}{5}\relax 
+\changetocdepth {3}
+\defcounter {refsection}{5}\relax 
+\contentsline {chapter}{Bibliography}{16}{}%
